@@ -6,10 +6,10 @@ Patient ID,Age,Sex,Symptoms,Medical History,Severity,Treatment Category,scaled_s
 5,57,Female,"Chest pain, Shortness of breath, Fatigue, Swelling in legs",,Severe,Medications (high dosage),0,8,22,3
 6,37,Female,"Chest pain, Shortness of breath","High cholesterol, Diabetes, Smoking history",Severe,Medications (high dosage),0,6,16,3
 7,72,Male,"Chest pain, Shortness of breath, Palpitations, Fatigue","High cholesterol, Diabetes, Smoking history",Medium,Angioplasty,1,10,16,2
-8,39,Female,Fatigue,,Light,Lifestyle changes,0,14,22,1
+8,39,Female,Fatigue,No prior medical history,Light,Lifestyle changes,0,14,22,1
 9,59,Male,Palpitations,"High blood pressure, Family history of heart disease",Severe,Medications (high dosage),1,16,7,3
 10,48,Female,"Chest pain, Swelling in legs","High blood pressure, High cholesterol, Family history of heart disease",Severe,Medications (high dosage),0,13,11,3
-1,45,Female,"Chest pain, Shortness of breath",,Severe,Cardiac catheterization,0,6,22,3
+1,45,Female,"Chest pain, Shortness of breath",No prior medical history,Severe,Cardiac catheterization,0,6,22,3
 2,72,Female,Chest pain,High cholesterol,Critical,Intensive care,0,0,14,0
 3,65,Female,Chest pain,Family history of heart disease,Medium,Medications (moderate dosage),0,0,2,2
 4,59,Female,"Chest pain, Shortness of breath, Palpitations, Fatigue, Swelling in legs","High blood pressure, High cholesterol",Medium,Medications (moderate dosage),0,11,8,2
@@ -56,7 +56,7 @@ Patient ID,Age,Sex,Symptoms,Medical History,Severity,Treatment Category,scaled_s
 45,82,Male,"Shortness of breath, Swelling in legs","High cholesterol, Diabetes",Critical,Palliative care,1,25,15,0
 46,38,Female,Chest pain,No prior medical history,Light,Lifestyle changes,0,0,20,1
 47,55,Male,"Palpitations, Fatigue","High blood pressure, Smoking history",Medium,Medications (moderate dosage),1,17,13,2
-48,30,Female,"Chest pain, Shortness of breath",,Light,Medications (low dosage),0,6,22,1
+48,30,Female,"Chest pain, Shortness of breath",No prior medical history,Light,Medications (low dosage),0,6,22,1
 49,69,Male,"Shortness of breath, Swelling in legs","High blood pressure, Diabetes",Critical,Palliative care,1,25,4,0
 50,43,Female,"Chest pain, Fatigue","High cholesterol, Family history of heart disease",Medium,Medications (moderate dosage),0,1,17,2
 51,24,Male,Shortness of breath,Smoking history,Light,Lifestyle changes,1,19,21,1
@@ -64,7 +64,7 @@ Patient ID,Age,Sex,Symptoms,Medical History,Severity,Treatment Category,scaled_s
 53,52,Male,No Symptoms,"High blood pressure, High cholesterol",Light,Medications (low dosage),1,15,8,1
 54,36,Female,Fatigue,Diabetes,Light,Lifestyle changes,0,14,0,1
 55,67,Male,"Chest pain, Shortness of breath","High blood pressure, Smoking history",Medium,Angioplasty,1,6,13,2
-56,47,Female,,,Light,Observation,0,26,22,1
+56,47,Female,Fatigue,No prior medical history,Light,Observation,0,26,22,1
 57,84,Male,"Shortness of breath, Swelling in legs","High cholesterol, Diabetes",Critical,Palliative care,1,25,15,0
 58,40,Female,Palpitations,"High blood pressure, Family history of heart disease",Medium,Medications (moderate dosage),0,16,7,2
 59,29,Male,Chest pain,No prior medical history,Light,Lifestyle changes,1,0,20,1
@@ -75,7 +75,7 @@ Patient ID,Age,Sex,Symptoms,Medical History,Severity,Treatment Category,scaled_s
 64,45,Female,Palpitations,High cholesterol,Light,Medications (low dosage),0,16,14,1
 65,81,Male,"Shortness of breath, Swelling in legs","High cholesterol, Diabetes",Critical,Palliative care,1,25,15,0
 66,25,Male,Chest pain,Smoking history,Light,Lifestyle changes,1,0,21,1
-67,53,Female,,High blood pressure,Light,Lifestyle changes,0,26,3,1
+67,53,Female,Fatigue,High blood pressure,Light,Lifestyle changes,0,26,3,1
 68,74,Male,"Palpitations, Fatigue","High blood pressure, Diabetes, Family history of heart disease",Severe,Medications (high dosage),1,17,5,3
 69,42,Female,"Chest pain, Shortness of breath",No prior medical history,Medium,Angioplasty,0,6,20,2
 70,31,Male,Shortness of breath,"Diabetes, Smoking history",Light,Medications (low dosage),1,19,1,1

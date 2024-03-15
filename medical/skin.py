@@ -12,7 +12,7 @@ def skin_data(problem,location,gender):
      le_his=LabelEncoder()
      le_sex = LabelEncoder().fit(df['Sex'].unique())
      le_symp = LabelEncoder().fit(df['Skin Problem'].unique())
-     le_his = LabelEncoder().fit(df['Location of Body'].unique())
+     le_his = LabelEncoder().fit(df['Location on Body'].unique())
 
     # Now you can transform single inputs
      scaled_sex = le_sex.transform([gender])
@@ -37,7 +37,7 @@ def skin_data(problem,location,gender):
    #   print(scaled_sex[0])
    #   print(scaled_symptoms[0])
    #   print(scaled_history[0])
-     res=df[(df["Symptoms"].str.contains(symp[0])) & (df["Medical History"].str.contains(his[0])) & (df["Sex"] == se[0]) ]
+     res=df[(df["Skin Problem"].str.contains(symp[0])) & (df["Location on Body"].str.contains(his[0])) & (df["Sex"] == se[0]) ]
      print(res)
      with open("C:/MedTech_DJ_Backend/med_backend/medical/heart_model.pkl","rb") as f:
         model=pickle.load(f,encoding='utf-8')

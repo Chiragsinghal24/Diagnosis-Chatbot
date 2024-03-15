@@ -8,7 +8,7 @@ Patient ID,Age,Sex,Symptoms,Medical History,Smoking History,Severity,Treatment C
 7,70,Male,"Shortness of breath (progression), Fatigue",COPD (chronic bronchitis),Ever smoker (quit 25 years ago),Medium,"Bronchodilators, Vaccinations (flu shot, pneumonia vaccine)",1,34,5,6
 8,40,Female,"Fever, Cough (productive, green mucus)",,Never smoker,Light,"Antibiotics (if bacterial infection), Rest, Fluids",0,16,31,3
 9,62,Male,"Shortness of breath (sudden onset), Chest pain (sharp)",,Never smoker,Severe,"Emergency medical attention, Possible pulmonary embolism diagnosis",1,36,31,8
-10,33,Female,,Tuberculosis exposure,Light,"Skin test or blood test to check for latent TB infection, Preventive medication if needed",,0,64,28,9
+10,33,Female,"Fever, Cough (productive, green mucus)",Tuberculosis exposure,Light,"Skin test or blood test to check for latent TB infection, Preventive medication if needed",,0,64,28,9
 11,55,Male,"Shortness of breath (on exertion), Wheezing",,Ever smoker (quit 5 years ago),Medium,"Bronchodilators, Possible inhaled corticosteroids, Pulmonary function tests",1,33,31,6
 12,25,Female,"Chest tightness, Cough (dry)",Anxiety,Never smoker,Light,"Relaxation techniques, Inhaled albuterol (if wheezing develops)",0,8,1,3
 13,60,Male,"Difficulty breathing at rest, Blueish tint to lips (cyanosis)",Congestive heart failure,Ever smoker (quit 30 years ago),Severe,"Oxygen therapy, Diuretics, Medications for heart failure",1,10,9,8
@@ -28,7 +28,7 @@ Patient ID,Age,Sex,Symptoms,Medical History,Smoking History,Severity,Treatment C
 7,70,Male,"Shortness of breath (progression), Fatigue",COPD (chronic bronchitis),Ever smoker (quit 25 years ago),Medium,"Bronchodilators, Vaccinations (flu shot, pneumonia vaccine)",1,34,5,6
 8,40,Female,"Fever, Cough (productive, green mucus)",,Never smoker,Light,"Antibiotics (if bacterial infection), Rest, Fluids",0,16,31,3
 9,62,Male,"Shortness of breath (sudden onset), Chest pain (sharp)",,Never smoker,Severe,"Emergency medical attention, Possible pulmonary embolism diagnosis",1,36,31,8
-10,33,Female,,Tuberculosis exposure,Light,"Skin test or blood test to check for latent TB infection, Preventive medication if needed",,0,64,28,9
+10,33,Female,"Fever, Cough (productive, green mucus)",Tuberculosis exposure,Light,"Skin test or blood test to check for latent TB infection, Preventive medication if needed",,0,64,28,9
 11,55,Male,"Shortness of breath (on exertion), Wheezing",,Ever smoker (quit 5 years ago),Medium,"Bronchodilators, Possible inhaled corticosteroids, Pulmonary function tests",1,33,31,6
 12,25,Female,"Chest tightness, Cough (dry)",Anxiety,Never smoker,Light,"Relaxation techniques, Inhaled albuterol (if wheezing develops)",0,8,1,3
 13,60,Male,"Difficulty breathing at rest, Blueish tint to lips (cyanosis)",Congestive heart failure,Ever smoker (quit 30 years ago),Severe,"Oxygen therapy, Diuretics, Medications for heart failure",1,10,9,8

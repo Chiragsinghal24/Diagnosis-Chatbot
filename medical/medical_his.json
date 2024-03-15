@@ -1,0 +1,128 @@
+{
+    "responseId": "f6df3d21-0e47-44cd-b493-0f56f86db0b7-e9bf988c",
+    "queryResult": {
+      "queryText": "I am suffering from Heartburn, Indigestion and I have suffered from       High cholesterol",
+      "parameters": {
+        "Med-History": [
+          "High cholesterol"
+        ],
+        "Symptoms": [
+          "Heartburn, Indigestion"
+        ]
+      },
+      "allRequiredParamsPresent": true,
+      "fulfillmentMessages": [
+        {
+          "text": {
+            "text": [
+              " Tell your gender please for better understanding"
+            ]
+          }
+        }
+      ],
+      "outputContexts": [
+        {
+          "name": "projects/medical-chatbot-rptd/agent/sessions/3d12efd0-a075-7bbd-d923-b29347e76deb/contexts/gender",
+          "lifespanCount": 5,
+          "parameters": {
+            "Symptoms.original": [
+              "Heartburn, Indigestion"
+            ],
+            "Med-History": [
+              "High cholesterol"
+            ],
+            "Symptoms": [
+              "Heartburn, Indigestion"
+            ],
+            "Med-History.original": [
+              "High cholesterol"
+            ]
+          }
+        },
+        {
+          "name": "projects/medical-chatbot-rptd/agent/sessions/3d12efd0-a075-7bbd-d923-b29347e76deb/contexts/problem",
+          "lifespanCount": 4,
+          "parameters": {
+            "Symptoms": [
+              "Heartburn, Indigestion"
+            ],
+            "Symptoms.original": [
+              "Heartburn, Indigestion"
+            ],
+            "Med-History": [
+              "High cholesterol"
+            ],
+            "organ": "Stomach",
+            "Med-History.original": [
+              "High cholesterol"
+            ],
+            "organ.original": "stomach"
+          }
+        },
+        {
+          "name": "projects/medical-chatbot-rptd/agent/sessions/3d12efd0-a075-7bbd-d923-b29347e76deb/contexts/organ",
+          "lifespanCount": 3,
+          "parameters": {
+            "Symptoms.original": [
+              "Heartburn, Indigestion"
+            ],
+            "Med-History.original": [
+              "High cholesterol"
+            ],
+            "organ.original": "stomach",
+            "Symptoms": [
+              "Heartburn, Indigestion"
+            ],
+            "Med-History": [
+              "High cholesterol"
+            ],
+            "organ": "Stomach"
+          }
+        },
+        {
+          "name": "projects/medical-chatbot-rptd/agent/sessions/3d12efd0-a075-7bbd-d923-b29347e76deb/contexts/confirm",
+          "lifespanCount": 2,
+          "parameters": {
+            "name": [
+              "Shankar"
+            ],
+            "name.original": [
+              "Shankar"
+            ],
+            "organ.original": "stomach",
+            "Symptoms": [
+              "Heartburn, Indigestion"
+            ],
+            "Med-History": [
+              "High cholesterol"
+            ],
+            "Med-History.original": [
+              "High cholesterol"
+            ],
+            "organ": "Stomach",
+            "Symptoms.original": [
+              "Heartburn, Indigestion"
+            ]
+          }
+        }
+      ],
+      "intent": {
+        "name": "projects/medical-chatbot-rptd/agent/intents/9a56aa69-a9b4-4b00-8e93-65e408b9774a",
+        "displayName": "other"
+      },
+      "intentDetectionConfidence": 1,
+      "diagnosticInfo": {
+        "webhook_latency_ms": 580
+      },
+      "languageCode": "en",
+      "sentimentAnalysisResult": {
+        "queryTextSentiment": {
+          "score": -0.7,
+          "magnitude": 0.7
+        }
+      }
+    },
+    "webhookStatus": {
+      "message": "Webhook execution successful"
+    }
+  }
