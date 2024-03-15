@@ -12,6 +12,7 @@ problem="any"
 body_part="any"
 med_history="any"
 gender="any"
+duration="any"
 @csrf_exempt
 def serve(request):
     global org
@@ -54,6 +55,18 @@ def serve(request):
                 ]
            }
            return JsonResponse(response)
+        if orgn=="Chest" or "Stomach" or "Breath":
+           message="Please tell that what your problem and what is your current medical history"
+           response = {
+                "fulfillmentMessages": [
+                    {
+                        "text": {
+                            "text": [message],
+                        }
+                    }
+                ]
+           }
+           return JsonResponse(response)
            
         else:
            message=f"Please elaborate your issue with the respective body part: {orgn} "
@@ -83,4 +96,57 @@ def serve(request):
                 ]
         }
         return JsonResponse(response)
-     
+     if intent=="skin":
+        problems=data["queryResult"]["outputContexts"][0]["parameters"]["Symptoms.original"]
+        problem=problems[0]
+        print("Problem is: ",problem)
+        duration=data["queryResult"]["outputContexts"][0]["parameters"]["duration.original"]
+        print("Duration is: ",duration)
+        message=f" Tell your gender please for better understanding"
+        response = {
+                "fulfillmentMessages": [
+                    {
+                        "text": {
+                            "text": [message],
+                        }
+                    }
+                ]
+        }
+        return JsonResponse(response)
+     if intent=="other":
+        problems=data["queryResult"]["outputContexts"][0]["parameters"]["Symptoms.original"]
+        problem=problems[0]
+        print("Problem is: ",problem)
+        # duration=data["queryResult"]["outputContexts"][0]["parameters"]["duration.original"]
+        # print("Duration is: ",duration)
+        message=f" Tell your gender please for better understanding"
+        response = {
+                "fulfillmentMessages": [
+                    {
+                        "text": {
+                            "text": [message],
+                        }
+                    }
+                ]
+        }
+        return JsonResponse(response)
+     if intent=="gender":
+        gender=data["queryResult"]["parameters"]["sex"]
+        print("Organ is: ",orgn)
+        print("Problem is ",problem)
+        print("Body Part is: ",body_part)
+        print("Medical history is: ",med_history)
+        print("Gender is: ",gender)
+        print("Duration is: ",duration)
+        message=f" This was the last intent"
+        response = {
+                "fulfillmentMessages": [
+                    {
+                        "text": {
+                            "text": [message],
+                        }
+                    }
+                ]
+        }
+        return JsonResponse(response)
+

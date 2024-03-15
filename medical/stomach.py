@@ -2,11 +2,11 @@ import pickle
 from django.http import JsonResponse
 from sklearn.preprocessing import LabelEncoder
 import pandas as pd
-def heart_data(problem, med_history,gender):
+def stomach_data(problem, med_history,gender):
      sex=gender
      symptoms=problem
      history=med_history
-     df=pd.read_csv("C:/MedTech_DJ_Backend/med_backend/Dataset/Heart Disease.csv")
+     df=pd.read_csv("C:/MedTech_DJ_Backend/med_backend/Dataset/Stomach Disease.csv")
      le_sex=LabelEncoder()
      le_symp=LabelEncoder()
      le_his=LabelEncoder()

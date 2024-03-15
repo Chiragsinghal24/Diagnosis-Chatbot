@@ -1,0 +1,77 @@
+{
+    "responseId": "041634e9-8f94-425c-93ad-98b29bc818f2-e9bf988c",
+    "queryResult": {
+      "queryText": "I am Male",
+      "parameters": {
+        "sex": "Male"
+      },
+      "allRequiredParamsPresent": true,
+      "fulfillmentMessages": [
+        {
+          "text": {
+            "text": [
+              ""
+            ]
+          }
+        }
+      ],
+      "outputContexts": [
+        {
+          "name": "projects/medical-chatbot-rptd/agent/sessions/3d12efd0-a075-7bbd-d923-b29347e76deb/contexts/final",
+          "lifespanCount": 5,
+          "parameters": {
+            "sex": "Male",
+            "sex.original": "Male"
+          }
+        },
+        {
+          "name": "projects/medical-chatbot-rptd/agent/sessions/3d12efd0-a075-7bbd-d923-b29347e76deb/contexts/gender",
+          "lifespanCount": 4,
+          "parameters": {
+            "Symptoms": [
+              "Nausea"
+            ],
+            "Symptoms.original": [
+              "Nausea"
+            ],
+            "sex.original": "Male",
+            "sex": "Male"
+          }
+        },
+        {
+          "name": "projects/medical-chatbot-rptd/agent/sessions/3d12efd0-a075-7bbd-d923-b29347e76deb/contexts/problem",
+          "lifespanCount": 3,
+          "parameters": {
+            "sex": "Male",
+            "sex.original": "Male",
+            "organ": "Stomach",
+            "Symptoms": [
+              "Nausea"
+            ],
+            "organ.original": "Stomach",
+            "Symptoms.original": [
+              "Nausea"
+            ]
+          }
+        }
+      ],
+      "intent": {
+        "name": "projects/medical-chatbot-rptd/agent/intents/84e9bd7a-563a-41d2-bcc3-abfe22c6e4d1",
+        "displayName": "gender",
+        "endInteraction": true
+      },
+      "intentDetectionConfidence": 1,
+      "diagnosticInfo": {
+        "webhook_latency_ms": 4893,
+        "end_conversation": true
+      },
+      "languageCode": "en",
+      "sentimentAnalysisResult": {
+        "queryTextSentiment": {}
+      }
+    },
+    "webhookStatus": {
+      "code": 4,
+      "message": "Webhook call failed. Error: DEADLINE_EXCEEDED, State: URL_TIMEOUT, Reason: TIMEOUT_WEB."
+    }
+  }

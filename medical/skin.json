@@ -1,0 +1,98 @@
+{
+  "responseId": "e7605510-cc5d-4801-a114-29a29e6eb091-e9bf988c",
+  "queryResult": {
+    "queryText": "I am seeing Small, red, spider-like veins near the surface of the skin since 2 months",
+    "parameters": {
+      "body-part": [
+        "skin"
+      ],
+      "Symptoms": [
+        "Small, red, spider-like veins near the surface"
+      ],
+      "duration": {
+        "amount": 2,
+        "unit": "mo"
+      }
+    },
+    "allRequiredParamsPresent": true,
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            ""
+          ]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/medical-chatbot-rptd/agent/sessions/3d12efd0-a075-7bbd-d923-b29347e76deb/contexts/organ",
+        "lifespanCount": 4,
+        "parameters": {
+          "organ.original": "skin",
+          "organ": "Skin",
+          "body-part.original": [
+            "skin"
+          ],
+          "duration.original": "2 months",
+          "body-part": [
+            "skin"
+          ],
+          "Symptoms.original": [
+            "Small, red, spider-like veins near the surface"
+          ],
+          "Symptoms": [
+            "Small, red, spider-like veins near the surface"
+          ],
+          "duration": {
+            "amount": 2,
+            "unit": "mo"
+          }
+        }
+      },
+      {
+        "name": "projects/medical-chatbot-rptd/agent/sessions/3d12efd0-a075-7bbd-d923-b29347e76deb/contexts/confirm",
+        "lifespanCount": 2,
+        "parameters": {
+          "name": [
+            "Mridul"
+          ],
+          "Symptoms.original": [
+            "Small, red, spider-like veins near the surface"
+          ],
+          "body-part": [
+            "skin"
+          ],
+          "name.original": [
+            "Mridul"
+          ],
+          "Symptoms": [
+            "Small, red, spider-like veins near the surface"
+          ],
+          "duration": {
+            "unit": "mo",
+            "amount": 2
+          },
+          "body-part.original": [
+            "skin"
+          ],
+          "duration.original": "2 months",
+          "organ": "Skin",
+          "organ.original": "skin"
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/medical-chatbot-rptd/agent/intents/31d15e4c-189d-4bc4-809b-7d1594fd68bb",
+      "displayName": "skin"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "en",
+    "sentimentAnalysisResult": {
+      "queryTextSentiment": {
+        "score": -0.2,
+        "magnitude": 0.2
+      }
+    }
+  }
+}

@@ -2,22 +2,22 @@ import pickle
 from django.http import JsonResponse
 from sklearn.preprocessing import LabelEncoder
 import pandas as pd
-def heart_data(problem, med_history,gender):
+def skin_data(problem,location,gender):
      sex=gender
      symptoms=problem
-     history=med_history
-     df=pd.read_csv("C:/MedTech_DJ_Backend/med_backend/Dataset/Heart Disease.csv")
+     location=location
+     df=pd.read_csv("C:/MedTech_DJ_Backend/med_backend/Dataset/Skin Disease.csv")
      le_sex=LabelEncoder()
      le_symp=LabelEncoder()
      le_his=LabelEncoder()
      le_sex = LabelEncoder().fit(df['Sex'].unique())
-     le_symp = LabelEncoder().fit(df['Symptoms'].unique())
-     le_his = LabelEncoder().fit(df['Medical History'].unique())
+     le_symp = LabelEncoder().fit(df['Skin Problem'].unique())
+     le_his = LabelEncoder().fit(df['Location of Body'].unique())
 
     # Now you can transform single inputs
      scaled_sex = le_sex.transform([gender])
      scaled_symptoms = le_symp.transform([problem])
-     scaled_history = le_his.transform([med_history])
+     scaled_history = le_his.transform([location])
 
      print(scaled_sex[0])
      print(scaled_symptoms[0])
@@ -27,7 +27,7 @@ def heart_data(problem, med_history,gender):
      symp=[]
      symp.append(symptoms)
      his=[]
-     his.append(history)
+     his.append(location)
      print(se)
      print(symp)
      print(his)
@@ -44,6 +44,5 @@ def heart_data(problem, med_history,gender):
      print(model)
      predictions=model.predict([[scaled_sex[0],scaled_symptoms[0],scaled_history[0]]])
      print("Predictions is: ",predictions)
-     return predictions[0]
    #   return JsonResponse({"message":"Hello from the backend"})
-     predictions[0] 
+     return predictions[0]
