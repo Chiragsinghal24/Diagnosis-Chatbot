@@ -1,0 +1,78 @@
+{
+    "responseId": "13a65d3b-4b66-4dcc-aba2-471b03d6d5db-e9bf988c",
+    "queryResult": {
+      "queryText": "I am feeling chest tightedness",
+      "parameters": {
+        "Symptoms": [
+          "chest tightedness"
+        ]
+      },
+      "allRequiredParamsPresent": true,
+      "fulfillmentMessages": [
+        {
+          "text": {
+            "text": [
+              ""
+            ]
+          }
+        }
+      ],
+      "outputContexts": [
+        {
+          "name": "projects/medical-chatbot-rptd/agent/sessions/3d12efd0-a075-7bbd-d923-b29347e76deb/contexts/gender",
+          "lifespanCount": 5,
+          "parameters": {
+            "Symptoms.original": [
+              "chest tightedness"
+            ],
+            "Symptoms": [
+              "chest tightedness"
+            ]
+          }
+        },
+        {
+          "name": "projects/medical-chatbot-rptd/agent/sessions/3d12efd0-a075-7bbd-d923-b29347e76deb/contexts/organ",
+          "lifespanCount": 4,
+          "parameters": {
+            "Symptoms": [
+              "chest tightedness"
+            ],
+            "organ.original": "chest",
+            "Symptoms.original": [
+              "chest tightedness"
+            ],
+            "organ": "Chest"
+          }
+        },
+        {
+          "name": "projects/medical-chatbot-rptd/agent/sessions/3d12efd0-a075-7bbd-d923-b29347e76deb/contexts/confirm",
+          "lifespanCount": 2,
+          "parameters": {
+            "name": [
+              "Mridul"
+            ],
+            "organ": "Chest",
+            "organ.original": "chest",
+            "Symptoms": [
+              "chest tightedness"
+            ],
+            "Symptoms.original": [
+              "chest tightedness"
+            ],
+            "name.original": [
+              "Mridul"
+            ]
+          }
+        }
+      ],
+      "intent": {
+        "name": "projects/medical-chatbot-rptd/agent/intents/7f95cf3b-562e-4c69-87d0-34d381c5f499",
+        "displayName": "Problem"
+      },
+      "intentDetectionConfidence": 1,
+      "languageCode": "en",
+      "sentimentAnalysisResult": {
+        "queryTextSentiment": {}
+      }
+    }
+  }

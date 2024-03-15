@@ -1,0 +1,52 @@
+{
+    "responseId": "8dc514dc-f3a7-472e-b7a1-9b6a12c1dce5-e9bf988c",
+    "queryResult": {
+      "queryText": "Mridul this side and I need your urgent help",
+      "parameters": {
+        "name": [
+          "Mridul"
+        ]
+      },
+      "allRequiredParamsPresent": true,
+      "fulfillmentText": "Hey there, I understand that you need me help",
+      "fulfillmentMessages": [
+        {
+          "text": {
+            "text": [
+              "Hey there, I understand that you need me help"
+            ]
+          }
+        }
+      ],
+      "outputContexts": [
+        {
+          "name": "projects/medical-chatbot-rptd/agent/sessions/3d12efd0-a075-7bbd-d923-b29347e76deb/contexts/part",
+          "lifespanCount": 5,
+          "parameters": {
+            "name.original": [
+              "Mridul"
+            ],
+            "name": [
+              "Mridul"
+            ]
+          }
+        }
+      ],
+      "intent": {
+        "name": "projects/medical-chatbot-rptd/agent/intents/62e74c2a-2b99-4da8-9722-d5fdeaa79c65",
+        "displayName": "Initial"
+      },
+      "intentDetectionConfidence": 1,
+      "diagnosticInfo": {
+        "webhook_latency_ms": 2749
+      },
+      "languageCode": "en",
+      "sentimentAnalysisResult": {
+        "queryTextSentiment": {}
+      }
+    },
+    "webhookStatus": {
+      "code": 3,
+      "message": "Webhook call failed. Error: INVALID_ARGUMENT, State: URL_ERROR, Reason: ERROR_OTHER, HTTP status code: 400."
+    }
+  }

@@ -1,0 +1,63 @@
+Medicine Name,Description,Dosage Form,Target Skin Condition,Side Effects,Severity
+DermaShield,Creates a temporary protective barrier on the skin,Topical lotion,"Eczema, psoriasis, sunburn","Mild tingling sensation, temporary waxy feeling",1
+ChronoCell,Accelerates skin cell regeneration,Topical cream,"Wounds, burns","Increased sensitivity to sunlight, temporary itchiness",2
+FlawFix,Minimizes wrinkles and fine lines,Injectable serum,Aging skin,"Mild swelling, temporary bruising at injection site",1
+BlemishBanish,Rapidly treats acne breakouts,Topical gel,Acne,"Dryness, temporary redness or stinging",1
+ColorClear,Fades hyperpigmentation and sunspots,Topical serum,"Uneven skin tone, sun damage","Temporary skin lightening, potential for mild irritation",1
+HydraSkin,Deeply hydrates and plumps the skin,Injected hyaluronic acid,"Dry skin, dehydration","Slight swelling at injection site, potential for mild allergic reaction",1
+MoleMend,Safely removes moles and skin tags,Topical patch,"Unwanted moles, skin tags","Temporary redness or scabbing, minor discomfort during removal",1
+ItchNix,Provides instant relief from itching,Topical spray,"Eczema, insect bites","Cooling sensation, temporary numbness",1
+PsoriasisCalm,Suppresses psoriasis flare-ups,Oral medication,Psoriasis,"Fatigue, nausea (consult doctor for dosage adjustment)",2
+AllergicEase,Reduces allergic skin reactions,Topical cream or oral medication,"Hives, allergic contact dermatitis",Drowsiness (oral medication only),1
+SkinShield,Protects against sunburn and UV damage,Topical spray,Sunburn prevention,"Temporary tingling sensation, potential for mild allergic reaction",1
+VitaGlow,Enhances skin health and radiance,Dietary supplement,"General skin health, dullness",Mild headaches (adjust dosage if needed),1
+FungalClear,"Eliminates fungal infections (athlete's foot, ringworm)",Topical cream or oral medication,Fungal skin infections,"Topical: burning sensation, itching. Oral: nausea, stomach upset (consult doctor for dosage)",1-2
+DermaRegen,Stimulates collagen production for firmer skin,Injectable serum,"Wrinkles, loss of elasticity","Temporary bruising at injection site, potential for mild swelling",1
+ScarFade,Reduces the appearance of scars,Topical gel,Scars (new and old),"Temporary redness or itchiness, may require multiple applications",2
+SkinTone,Evens skin tone and reduces redness,Topical lotion,"Rosacea, redness","Mild tingling sensation, potential for temporary flushing",1
+SweatBlock,Temporarily blocks sweat production,Topical cream,Excessive sweating (hyperhidrosis),"Dryness, potential for mild irritation",1
+PoreShrink,Minimizes the appearance of enlarged pores,Topical serum,Enlarged pores,"Tightening sensation, potential for dryness",1
+CellShield,Protects skin cells from environmental damage,Topical lotion,"Pollution, premature aging","Mild tingling sensation, potential for temporary waxy feeling",1
+Visage,"Creates a flawless, airbrushed appearance for several hours",Topical spray,"Uneven skin tone, blemishes","Temporary tightness, potential for mild allergic reaction",1
+DermaChill,Provides localized cooling relief for burns,Topical gel,"Burns, sunburn","Temporary numbness, potential for stinging sensation",1
+MoleMorph,Safely transforms unwanted moles into beauty marks,Topical patch,Unwanted moles,"Temporary redness or scabbing, slight discoloration during transformation",1
+FreckleFade,Selectively targets and fades freckles,Topical serum,Freckles,"Temporary lightening of surrounding skin, potential for mild irritation",1
+BlemishBlitz,Treats and prevents stubborn breakouts,Light therapy device,"Acne (cystic, hormonal)","Temporary redness, potential for increased sun sensitivity",2
+ColorMatch,Instantly adjusts skin tone to a desired shade,Topical spray,"Uneven skin tone, self-tanning","Temporary tingling sensation, potential for color transfer to clothing",1
+HydraMist,Provides continuous deep hydration for 24 hours,Facial mist,"Dry skin, dehydration","Temporary tightening sensation, potential for mist inhalation discomfort",1
+VeinVanish,Reduces the appearance of spider veins,Injectable solution,Spider veins,"Temporary bruising at injection site, potential for mild swelling",1
+ItchErase,Provides long-lasting relief from chronic itching,Oral medication,"Eczema, psoriasis (itching)","Drowsiness, dry mouth (consult doctor for dosage)",2
+PsoriasisClear,Targets and eliminates underlying causes of psoriasis,Oral medication,Psoriasis,"Fatigue, nausea, potential for hair loss (consult doctor for dosage)",3
+AllergicShield,Prevents allergic reactions before they start,Oral medication or nasal spray,"Seasonal allergies, environmental allergies","Drowsiness (oral medication only), potential for dry mouth or nasal irritation",1
+SunShield+,"Protects against sunburn, UV damage, and insect bites",Topical spray (enhanced version),"Sunburn prevention, insect bites","Temporary tingling sensation, potential for mild allergic reaction",1
+VitaGlowMax,"Enhances skin health, radiance, and elasticity",Dietary supplement (advanced formula),"General skin health, aging skin","Mild headaches (adjust dosage if needed), potential for increased sun sensitivity",2
+FungalBlast,Rapidly eliminates stubborn fungal infections,Topical cream or oral medication (enhanced formula),Fungal skin infections,"Topical: burning sensation, increased itching. Oral: nausea, stomach upset (consult doctor for dosage)",1-2
+DermaSculpt,Non-surgically defines facial contours,Injectable filler,"Wrinkles, sagging skin","Temporary swelling, bruising at injection site, potential for minor asymmetry",2
+ScarErase,Removes scars completely,Topical gel (advanced formula),Scars (new and old),"Temporary redness or burning sensation, may require multiple applications",3
+SkinSoothe,Calms and soothes irritated skin,Topical lotion (sensitive skin formula),"Eczema, allergic reactions","Cooling sensation, potential for slight greasiness",1
+SweatBlockMax,Provides extended sweat control for up to 48 hours,Topical cream (enhanced formula),Excessive sweating (hyperhidrosis),"Dryness, potential for increased itching",2
+PoreRefine,Minimizes pores and refines skin texture,Topical serum (advanced formula),"Enlarged pores, uneven texture","Tightening sensation, potential for temporary redness or flaking",1
+CellShield+,Protects skin cells from environmental damage and free radicals,Topical lotion (enhanced formula),"Pollution, premature aging","Mild tingling sensation, potential for temporary waxy feeling",1
+Visage+,"Creates a flawless, airbrushed appearance with a natural finish",Topical spray (enhanced formula),"Uneven skin tone, blemishes","Temporary tightness, potential for mild allergic reaction, more natural-looking finish",1
+DermaGlow,"Induces a natural, healthy-looking tan without UV exposure",Topical lotion,"Pale skin, desire for a tan","Temporary tingling sensation, potential for uneven application",1
+NightRenew,Promotes cellular repair and rejuvenation while you sleep,Topical serum,"Wrinkles, loss of elasticity","Potential for vivid dreams, temporary morning puffiness",1
+DermaCleanse,Deep cleanses pores and removes impurities without stripping moisture,Facial wash,"Acne, oily skin","Temporary tightness, potential for increased sensitivity to exfoliating ingredients",1
+MoleMorph+,Transforms unwanted moles into beauty marks with customizable color and shape,Topical patch (advanced),Unwanted moles,"Temporary redness or scabbing, slight color adjustment period",2
+FreckleErase,Selectively targets and fades freckles while evening overall skin tone,Topical serum (advanced),"Freckles, uneven skin tone","Temporary lightening of surrounding skin, potential for mild irritation",1
+BlemishBlitzMAX,Treats and prevents stubborn breakouts while reducing inflammation,Light therapy device (advanced),"Acne (cystic, hormonal), inflammation","Temporary redness, increased sun sensitivity (use sunscreen)",2
+ColorMatch+,Instantly adjusts skin tone to a desired shade while adapting to natural skin undertones,Topical spray (advanced),"Uneven skin tone, self-tanning","Temporary tingling sensation, potential for color transfer to clothing, more natural-looking finish",1
+HydraLock,Provides continuous deep hydration for 48 hours and strengthens skin barrier,Facial mist (advanced formula),"Dry skin, dehydration, weakened barrier","Temporary tightening sensation, potential for mist inhalation discomfort",1
+VeinSclero,Scleroses and shrinks visible spider veins,Injectable solution (advanced),Spider veins,"Temporary bruising and swelling at injection site, potential for minor discomfort",2
+ItchRelief,Provides targeted relief from localized itching without drowsiness,Topical cream,"Eczema, insect bites","Cooling sensation, potential for mild tingling",1
+PsoriasisCalm+,Suppresses psoriasis flare-ups and promotes skin healing,Oral medication (advanced formula),Psoriasis,"Fatigue, nausea (consult doctor for dosage adjustment), potential for hair loss (consult doctor)",3
+AllergicShield+,Prevents allergic reactions before they start and reduces existing symptoms,Oral medication or nasal spray (advanced),"Seasonal allergies, environmental allergies","Drowsiness (oral medication only), potential for dry mouth or nasal irritation, faster symptom relief",1
+SunShieldMax+,"Protects against sunburn, UV damage, insect bites, and pollution",Topical spray (enhanced formula with broader protection),"Sunburn prevention, insect bites, pollution damage","Temporary tingling sensation, potential for mild allergic reaction",1
+VitaHair,Promotes healthy hair growth and combats hair loss,Dietary supplement,"Hair loss, thinning hair","Potential for increased energy levels, consult doctor for dosage",1
+FungalCure,Eliminates even the most stubborn fungal infections rapidly and prevents recurrence,Topical cream or oral medication (advanced formula),Fungal skin infections,"Topical: burning sensation, increased itching (temporary). Oral: nausea, stomach upset (consult doctor for dosage)",1-2
+DermaLift,Non-surgically lifts and tightens sagging skin,Injectable filler (advanced formula),"Wrinkles, sagging skin","Temporary swelling, bruising at injection site, potential for minor asymmetry, longer-lasting results",3
+ScarErasePro,Removes scars completely with minimal downtime,"Topical gel (advanced formula, professional grade)",Scars (new and old),"Temporary redness or burning sensation, may require fewer applications",3
+SkinCalm+,Calms and soothes irritated skin while restoring the skin barrier,"Topical lotion (sensitive skin formula, advanced)","Eczema, allergic reactions, weakened barrier","Cooling sensation, potential for slight greasiness, faster healing",1
+SweatBlockMax+,Provides extended sweat control for up to 72 hours with odor control,Topical cream (enhanced formula with odor control),Excessive sweating (hyperhidrosis),"Dryness, potential for increased itching, eliminates sweat odor",2
+PoreVanish,"Minimizes pores, refines skin texture, and regulates sebum production",Topical serum (advanced formula),"Enlarged pores, uneven texture, oily skin","Tightening sensation, potential for temporary redness or flaking, controls shine",1
+CellShieldX,"Protects skin cells from environmental damage, free radicals, and pollution with enhanced cellular repair",Topical lotion (advanced formula with cellular repair),"Pollution, premature aging","Mild tingling sensation, potential for temporary waxy feeling, faster cellular renewal",1
+VisagePro,"Creates a flawless, airbrushed appearance with a natural finish and long-lasting wear","Topical spray (enhanced formula, professional grade)","Uneven skin tone, blemishes","Temporary tightness, potential for mild allergic reaction",

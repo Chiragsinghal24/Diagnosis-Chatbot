@@ -1,0 +1,120 @@
+Patient ID,Age,Sex,Symptoms,Medical History,Smoking History,Severity,Treatment Category,scaled_sex,scaled_symptoms,scaled_history,scaled_severity
+1,68,Male,"Shortness of breath (exertion), Cough (productive)",,Ever smoker (quit 10 years ago),Medium,"Bronchodilators, Inhaled corticosteroids, Possible pulmonary rehabilitation",1,31,31,6
+2,42,Female,"Wheezing, Chest tightness",Asthma,Never smoker,Light,"Inhaled corticosteroids, Quick-relief inhaler, Allergy medications (if allergies present)",0,61,3,3
+3,75,Male,"Difficulty breathing at rest, Nighttime cough",COPD (emphysema),Current smoker,Severe,"Oxygen therapy, Bronchodilators, Pulmonary rehabilitation",1,12,6,8
+4,35,Female,Persistent cough (blood present),,Never smoker,Medium,"Chest X-ray, Possible bronchoscopy to identify cause",0,19,31,6
+5,58,Male,"Chest pain (pleuritic), Shortness of breath",,Never smoker,Medium,"Pleuritic pain medication, Investigate cause (e.g., pneumonia, pulmonary embolism)",1,3,31,6
+6,29,Female,"Wheezing, Difficulty breathing after exercise-induced asthma trigger",,Never smoker,Light,"Quick-relief inhaler, Identify and avoid triggers",0,62,31,3
+7,70,Male,"Shortness of breath (progression), Fatigue",COPD (chronic bronchitis),Ever smoker (quit 25 years ago),Medium,"Bronchodilators, Vaccinations (flu shot, pneumonia vaccine)",1,34,5,6
+8,40,Female,"Fever, Cough (productive, green mucus)",,Never smoker,Light,"Antibiotics (if bacterial infection), Rest, Fluids",0,16,31,3
+9,62,Male,"Shortness of breath (sudden onset), Chest pain (sharp)",,Never smoker,Severe,"Emergency medical attention, Possible pulmonary embolism diagnosis",1,36,31,8
+10,33,Female,,Tuberculosis exposure,Light,"Skin test or blood test to check for latent TB infection, Preventive medication if needed",,0,64,28,9
+11,55,Male,"Shortness of breath (on exertion), Wheezing",,Ever smoker (quit 5 years ago),Medium,"Bronchodilators, Possible inhaled corticosteroids, Pulmonary function tests",1,33,31,6
+12,25,Female,"Chest tightness, Cough (dry)",Anxiety,Never smoker,Light,"Relaxation techniques, Inhaled albuterol (if wheezing develops)",0,8,1,3
+13,60,Male,"Difficulty breathing at rest, Blueish tint to lips (cyanosis)",Congestive heart failure,Ever smoker (quit 30 years ago),Severe,"Oxygen therapy, Diuretics, Medications for heart failure",1,10,9,8
+14,38,Female,"Persistent cough, Fatigue",,Never smoker,Light,"Chest X-ray, Possible antibiotics (if bacterial infection)",0,20,31,3
+15,52,Male,"Pleuritic chest pain, Fever",,Never smoker,Medium,"Pleuritic pain medication, Imaging tests (chest X-ray, CT scan) to diagnose cause (e.g., pneumonia)",1,28,31,6
+16,22,Female,"Wheezing after exposure to allergens (dust, pollen)",Allergic rhinitis,Never smoker,Light,"Inhaled corticosteroids, Antihistamines (if allergies present)",0,56,0,3
+17,65,Male,"Shortness of breath (worsening at night), Frequent nighttime urination",,Ever smoker (quit 10 years ago),Medium,"Diuretics, Consult doctor to investigate possible heart or lung causes",1,39,31,6
+18,32,Female,"Fever, Cough (productive, yellow mucus)",Common cold,Never smoker,Light,"Over-the-counter medications for symptoms, Rest, Fluids",0,17,8,3
+19,49,Male,"Sudden onset of shortness of breath, Chest pain (pleuritic)",,Never smoker,Severe,"Emergency medical attention, Possible pulmonary embolism diagnosis",1,54,31,8
+20,30,Female,,Occupational dust exposure,Light,"Lung function tests,  Consultation with doctor to discuss preventative measures",,0,64,22,4
+1,68,Male,"Shortness of breath (exertion), Cough (productive)",,Ever smoker (quit 10 years ago),Medium,"Bronchodilators, Inhaled corticosteroids, Possible pulmonary rehabilitation",1,31,31,6
+2,42,Female,"Wheezing, Chest tightness",Asthma,Never smoker,Light,"Inhaled corticosteroids, Quick-relief inhaler, Allergy medications (if allergies present)",0,61,3,3
+3,75,Male,"Difficulty breathing at rest, Nighttime cough",COPD (emphysema),Current smoker,Severe,"Oxygen therapy, Bronchodilators, Pulmonary rehabilitation",1,12,6,8
+4,35,Female,Persistent cough (blood present),,Never smoker,Medium,"Chest X-ray, Possible bronchoscopy to identify cause",0,19,31,6
+5,58,Male,"Chest pain (pleuritic), Shortness of breath",,Never smoker,Medium,"Pleuritic pain medication, Investigate cause (e.g., pneumonia, pulmonary embolism)",1,3,31,6
+6,29,Female,"Wheezing, Difficulty breathing after exercise-induced asthma trigger",,Never smoker,Light,"Quick-relief inhaler, Identify and avoid triggers",0,62,31,3
+7,70,Male,"Shortness of breath (progression), Fatigue",COPD (chronic bronchitis),Ever smoker (quit 25 years ago),Medium,"Bronchodilators, Vaccinations (flu shot, pneumonia vaccine)",1,34,5,6
+8,40,Female,"Fever, Cough (productive, green mucus)",,Never smoker,Light,"Antibiotics (if bacterial infection), Rest, Fluids",0,16,31,3
+9,62,Male,"Shortness of breath (sudden onset), Chest pain (sharp)",,Never smoker,Severe,"Emergency medical attention, Possible pulmonary embolism diagnosis",1,36,31,8
+10,33,Female,,Tuberculosis exposure,Light,"Skin test or blood test to check for latent TB infection, Preventive medication if needed",,0,64,28,9
+11,55,Male,"Shortness of breath (on exertion), Wheezing",,Ever smoker (quit 5 years ago),Medium,"Bronchodilators, Possible inhaled corticosteroids, Pulmonary function tests",1,33,31,6
+12,25,Female,"Chest tightness, Cough (dry)",Anxiety,Never smoker,Light,"Relaxation techniques, Inhaled albuterol (if wheezing develops)",0,8,1,3
+13,60,Male,"Difficulty breathing at rest, Blueish tint to lips (cyanosis)",Congestive heart failure,Ever smoker (quit 30 years ago),Severe,"Oxygen therapy, Diuretics, Medications for heart failure",1,10,9,8
+14,38,Female,"Persistent cough, Fatigue",,Never smoker,Light,"Chest X-ray, Possible antibiotics (if bacterial infection)",0,20,31,3
+15,52,Male,"Pleuritic chest pain, Fever",,Never smoker,Medium,"Pleuritic pain medication, Imaging tests (chest X-ray, CT scan) to diagnose cause (e.g., pneumonia)",1,28,31,6
+16,22,Female,"Wheezing after exposure to allergens (dust, pollen)",Allergic rhinitis,Never smoker,Light,"Inhaled corticosteroids, Antihistamines (if allergies present)",0,56,0,3
+17,65,Male,"Shortness of breath (worsening at night), Frequent nighttime urination",,Ever smoker (quit 10 years ago),Medium,"Diuretics, Consult doctor to investigate possible heart or lung causes",1,39,31,6
+18,32,Female,"Fever, Cough (productive, yellow mucus)",Common cold,Never smoker,Light,"Over-the-counter medications for symptoms, Rest, Fluids",0,17,8,3
+19,49,Male,"Sudden onset of shortness of breath, Chest pain (pleuritic)",,Never smoker,Severe,"Emergency medical attention, Possible pulmonary embolism diagnosis",1,54,31,8
+20,30,Female,,Occupational dust exposure,Light,"Lung function tests,  Consultation with doctor to discuss preventative measures",,0,64,22,4
+31,50,Male,"Shortness of breath (walking uphill), Fatigue",,Ever smoker (quit 20 years ago),Medium,"Pulmonary rehabilitation, Discuss oxygen therapy with doctor if needed",1,38,31,6
+32,28,Female,Wheezing triggered by exercise or cold air,Exercise-induced asthma,Never smoker,Light,"Quick-relief inhaler, Proper warm-up before exercise",0,60,14,3
+33,72,Male,"Difficulty breathing at rest, Leg swelling",,Ever smoker (quit 40 years ago),Severe,"Oxygen therapy, Diuretics, Consult doctor to investigate possible heart or lung causes",1,11,31,8
+34,45,Female,"Persistent cough, Weight loss (unintentional)",,Never smoker,Medium,"Chest X-ray,  Possible bronchoscopy to identify cause (e.g., lung cancer)",0,26,31,6
+35,63,Male,"Pleuritic chest pain, Chills",,Never smoker,Medium,"Pleuritic pain medication, Antibiotics (if bacterial infection suspected)",1,27,31,6
+36,36,Female,"Shortness of breath, Anxiety",Panic disorder,Never smoker,Light,"Relaxation techniques,  Consult doctor to differentiate between anxiety and asthma symptoms",0,51,24,3
+37,78,Male,"Shortness of breath (progression), Frequent respiratory infections",,Ever smoker (quit 45 years ago),Medium,"Vaccinations (flu shot, pneumonia vaccine), Bronchodilators (if needed)",1,35,31,6
+38,42,Female,"Fever, Cough (productive, green mucus)",,Never smoker,Light,"Antibiotics (if bacterial infection), Rest, Fluids",0,16,31,3
+39,59,Male,"Chest pain (sharp, stabbing), Shortness of breath (sudden onset)",,Never smoker,Severe,"Emergency medical attention, Possible pneumothorax diagnosis",1,5,31,8
+40,31,Female,,Diagnosed with latent TB infection,Light,Preventive medication  as directed by doctor,,0,64,12,7
+41,48,Male,"Shortness of breath (even at rest), Wheezing",,Never smoker,Medium,"Inhaled corticosteroids, Bronchodilators, Consult doctor to assess for COPD",1,30,31,6
+42,23,Female,"Chest tightness, Cough (dry)",Postnasal drip,Never smoker,Light,"Allergy medications (if allergies present), Nasal decongestants (short-term use)",0,8,25,3
+43,65,Male,"Difficulty breathing at rest, Blueish tint to lips (cyanosis)",Chronic obstructive pulmonary disease (COPD),Current smoker,Severe,"Oxygen therapy, Pulmonary rehabilitation, Bronchodilators",1,10,7,8
+44,34,Female,"Persistent cough, Hemoptysis (coughing up blood)",,Never smoker,Medium,"Urgent medical evaluation, Chest X-ray, Possible bronchoscopy",0,21,31,6
+45,50,Male,"Pleuritic chest pain, Fever, Night sweats",,Never smoker,Medium,"Imaging tests (chest X-ray, CT scan) to diagnose cause (e.g., pleural effusion), Antibiotics (if bacterial infection suspected)",1,29,31,6
+46,20,Female,Wheezing occasionally after exposure to dust mites,Dust mite allergy,Never smoker,Light,"Allergy medications, Air purifier at home (if needed)",0,59,13,3
+47,62,Male,"Shortness of breath (waking up at night), Frequent urination at night",,Ever smoker (quit 15 years ago),Medium,"Consult doctor to investigate possible heart or lung causes, Diuretics (if needed)",1,37,31,6
+48,39,Female,"Fever, Cough (productive, yellow mucus)",Bronchitis,Never smoker,Light,"Expectorants (if cough productive), Rest, Fluids",0,17,4,3
+49,56,Male,Chest pain (ple,,,,,1,1,31,12
+41,48,Male,"Shortness of breath (even at rest), Wheezing",,Never smoker,Medium,"Inhaled corticosteroids, Bronchodilators, Consult doctor to assess for COPD",1,30,31,6
+42,23,Female,"Chest tightness, Cough (dry)",Postnasal drip,Never smoker,Light,"Allergy medications (if allergies present), Nasal decongestants (short-term use), Doctor consultation to rule out other causes",0,8,25,3
+43,65,Male,"Difficulty breathing at rest, Blueish tint to lips (cyanosis)",Chronic obstructive pulmonary disease (COPD),Current smoker,Severe,"Oxygen therapy, Pulmonary rehabilitation, Bronchodilators, Doctor monitoring for COPD progression",1,10,7,8
+44,34,Female,"Persistent cough, Hemoptysis (coughing up blood)",,Never smoker,Medium,"Urgent medical evaluation, Chest X-ray, Possible bronchoscopy, Doctor consultation to identify cause of hemoptysis",0,21,31,6
+45,50,Male,"Pleuritic chest pain, Fever, Night sweats",,Never smoker,Medium,"Imaging tests (chest X-ray, CT scan) to diagnose cause (e.g., pleural effusion), Antibiotics (if bacterial infection suspected), Doctor consultation for diagnosis and treatment plan",1,29,31,6
+46,20,Female,Wheezing occasionally after exposure to dust mites,Dust mite allergy,Never smoker,Light,"Allergy medications, Air purifier at home (if needed), Doctor consultation to confirm allergy and discuss management strategies",0,59,13,3
+47,62,Male,"Shortness of breath (waking up at night), Frequent urination at night",,Ever smoker (quit 15 years ago),Medium,"Consult doctor to investigate possible heart or lung causes, Diuretics (if needed), Doctor consultation to determine cause of nighttime shortness of breath",1,37,31,6
+48,39,Female,"Fever, Cough (productive, yellow mucus)",Bronchitis,Never smoker,Light,"Expectorants (if cough productive), Rest, Fluids, Doctor consultation to monitor progress and rule out other causes",0,17,4,3
+49,56,Male,"Chest pain (pleuritic), Rapid breathing",,Never smoker,Medium,"Imaging tests (chest X-ray, CT scan) to diagnose cause (e.g., pulmonary embolism), Pain medication (if needed), Urgent medical evaluation if suspected pulmonary embolism",1,2,31,6
+50,27,Female,Shortness of breath after strenuous exercise,Untrained for exercise,Never smoker,Light,"Gradually increase exercise intensity, Proper warm-up and cool-down routines, Doctor consultation if shortness of breath persists",0,42,29,3
+51,45,Male,Wheezing occasionally after cold weather exposure,,Never smoker,Light,"Bronchodilator inhaler (if prescribed by doctor), Warm scarves/masks in cold weather, Doctor consultation to assess for exercise-induced asthma",1,57,31,3
+52,32,Female,"Chest tightness, Difficulty taking a deep breath",Anxiety disorder,Never smoker,Light,"Relaxation techniques, Doctor consultation to differentiate between anxiety and lung-related symptoms",0,9,2,3
+53,70,Male,"Shortness of breath (gradual worsening), Fatigue",,Ever smoker (quit 30 years ago),Medium,"Pulmonary function tests, Bronchodilators (if needed), Doctor consultation to monitor lung function and discuss treatment options",1,32,31,6
+54,41,Female,"Persistent cough, Loss of appetite",,Never smoker,Light,"Chest X-ray, Doctor consultation to identify cause of cough",0,23,31,3
+55,61,Male,,Occupational exposure to dust,Light,"Lung function tests, Wearing protective gear at work, Doctor consultation to discuss preventative measures",,1,64,23,5
+56,24,Female,"Shortness of breath, Rapid heartbeat",,Never smoker,Light,"Rest, Monitor symptoms, Doctor consultation if symptoms worsen",0,53,31,3
+57,50,Male,"Shortness of breath on exertion, Improved with rest",,Never smoker,Light,"Regular exercise (paced and gradually increased), Doctor consultation to assess fitness level",1,49,31,3
+58,38,Female,,Family history of lung disease,Never smoker,Light,"Get vaccinated against influenza and pneumonia (consult doctor), Doctor consultation for personalized preventative plan",0,64,18,3
+59,75,Male,"Shortness of breath at rest, Frequent respiratory infections",,Ever smoker (quit 40 years ago),Medium,"Vaccinations (flu shot, pneumonia vaccine),  Doctor consultation to assess lung health and infection risk",1,45,31,6
+60,43,Female,,,Never smoker,Light,"Maintain healthy weight, Engage in regular physical activity, Doctor consultation for a lung health check-up",0,64,31,3
+61,57,Male,,Exposure to secondhand smoke,Light,"Avoid secondhand smoke exposure, Doctor consultation to discuss lung health risks",,1,64,16,2
+62,21,Female,Occasional wheezing after running,,Never smoker,Light,"Proper warm-up before exercise, Cool-down stretches, Doctor consultation if wheezing persists",0,18,31,3
+63,68,Male,Shortness of breath after climbing stairs,,Ever smoker (quit 10 years ago),Medium,"Pulmonary rehabilitation program, Doctor consultation to discuss treatment options",1,40,31,6
+64,40,Female,"Persistent cough, Phlegm production (clear or white)",,Never smoker,Light,"Increase fluid intake, Consider using a humidifier, Doctor consultation if cough worsens or lasts more than 2 weeks",0,24,31,3
+65,54,Male,"Chest pain (sharp, stabbing)",,Never smoker,Medium,"Imaging tests (chest X-ray, CT scan) to diagnose cause, Pain medication (if needed), Urgent medical evaluation if suspected pneumothorax",1,4,31,6
+66,35,Male,"Unexplained weight loss, Fatigue",,Never smoker,Light,"Nutritional assessment, Doctor consultation to identify cause",1,55,31,3
+67,26,Female,Chest tightness after eating a large meal,,Never smoker,Light,"Monitor eating habits, Smaller and more frequent meals (if needed), Doctor consultation if chest tightness persists",0,6,31,3
+68,72,Male,"Shortness of breath at rest, Leg swelling (especially ankles)",Heart failure,Ever smoker (quit 25 years ago),Severe,"Oxygen therapy, Diuretics, Medications for heart failure, Doctor monitoring for heart and lung function",1,48,20,8
+69,47,Female,"Persistent cough, Hoarseness of voice",,Never smoker,Light,"Voice rest, Increased fluid intake, Doctor consultation to identify cause of cough",0,22,31,3
+70,65,Male,Difficulty sleeping due to shortness of breath when lying down (orthopnea),,Ever smoker (quit 10 years ago),Medium,"Sleeping with extra pillows, Consider a CPAP machine (if sleep apnea diagnosed), Doctor consultation to assess sleep patterns and breathing difficulties",1,15,31,6
+71,31,Female,,Diagnosed with asthma,Never smoker,Light,"Inhaled corticosteroids, Quick-relief inhaler for flare-ups, Doctor consultation for regular asthma management",0,64,10,3
+72,52,Male,Chest pain (burning sensation),Gastroesophageal reflux disease (GERD),Never smoker,Light,"Lifestyle modifications (diet, avoiding triggers), Medications for GERD (if prescribed), Doctor consultation to manage GERD and assess chest pain",1,0,19,3
+73,29,Female,"Wheezing, Difficulty breathing after exposure to pollen",Seasonal allergies,Never smoker,Light,"Allergy medications (antihistamines, nasal corticosteroids), Consult doctor for allergy testing (if needed),  Doctor consultation to develop an allergy management plan",0,63,26,3
+74,44,Male,"Shortness of breath, Blueish tint to lips (cyanosis)",Chronic obstructive pulmonary disease (COPD),Current smoker,Severe,"Oxygen therapy, Pulmonary rehabilitation, Bronchodilators, Doctor monitoring for COPD progression and providing smoking cessation support",1,52,7,8
+75,58,Female,,,Never smoker,Light,"Get vaccinated against influenza and pneumonia (consult doctor), Regular exercise (consult doctor for guidance if needed), Doctor consultation for a personalized lung health plan",0,64,31,3
+76,42,Male,"Shortness of breath on exertion, Improved with rest",,Never smoker,Light,"Regular exercise (paced and gradually increased), Doctor consultation to assess fitness level and potential exercise limitations",1,49,31,3
+77,30,Female,,Family history of lung cancer,Never smoker,Light,"Avoid secondhand smoke exposure, Maintain healthy weight, Doctor consultation for personalized lung cancer screening plan",0,64,17,3
+78,60,Male,"Shortness of breath at rest, Frequent chest infections",,Ever smoker (quit 30 years ago),Medium,"Vaccinations (flu shot, pneumonia vaccine),  Doctor consultation to assess lung health and infection risk factors",1,44,31,6
+79,40,Female,,,Never smoker,Light,"Practice good air quality habits (avoid air pollution), Engage in regular physical activity, Doctor consultation for a lung health check-up",0,64,31,3
+80,53,Male,,"Exposure to air pollution (e.g., living near busy roads)",Light,"Wear air filtration masks outdoors (if pollution levels are high), Consider air purifiers for home, Doctor consultation to discuss lung health risks from air pollution",,1,64,15,10
+81,33,Male,"Chest tightness, Anxiety (during stressful situations)",,Never smoker,Light,"Relaxation techniques, Doctor consultation to differentiate between anxiety and lung-related symptoms",1,7,31,3
+82,22,Female,Shortness of breath after inhaling strong cleaning products,,Never smoker,Light,"Open windows for ventilation, Use cleaning products as directed, Doctor consultation if shortness of breath persists",0,41,31,3
+83,64,Male,"Difficulty inhaling deeply, Recent upper respiratory infection",,Ever smoker (quit 15 years ago),Medium,"Monitor symptoms, Use a humidifier (if needed), Doctor consultation if symptoms worsen or persist",1,14,31,6
+84,49,Female,"Persistent cough, Produces blood-tinged mucus (rarely)",,Never smoker,Medium,"Chest X-ray, Doctor consultation to identify cause of cough and blood-tinged mucus",0,25,31,6
+85,59,Male,,Works in construction (exposed to dust and fumes),Light,"Wear protective gear at work, Doctor consultation for lung health monitoring",,1,64,30,11
+91,36,Male,Shortness of breath when climbing stairs or walking uphill,,Never smoker,Light,"Regular exercise (start slow and gradually increase intensity), Doctor consultation to assess fitness level",1,50,31,3
+92,25,Female,,Secondhand smoke exposure at work,Light,"Avoid secondhand smoke exposure whenever possible, Doctor consultation to discuss lung health risks",,0,64,27,1
+93,68,Male,"Shortness of breath at rest, Frequent sinus infections",,Ever smoker (quit 20 years ago),Medium,"Vaccinations (flu shot, pneumonia vaccine), Manage sinus infections (consult doctor), Doctor consultation to assess lung health and infection risk factors",1,46,31,6
+94,45,Female,,,Never smoker,Light,"Maintain healthy weight, Practice good posture, Doctor consultation for a lung health check-up",0,64,31,3
+95,50,Male,,Lives in a high-altitude area,Light,"Allow time to acclimatize to altitude, Avoid strenuous activity at high altitude initially, Doctor consultation if experiencing persistent shortness of breath",,1,64,21,0
+91,36,Male,Shortness of breath when climbing stairs or walking uphill,,Never smoker,Light,"Regular exercise (start slow and gradually increase intensity), Doctor consultation to assess fitness level",1,50,31,3
+92,25,Female,,Secondhand smoke exposure at work,Light,"Avoid secondhand smoke exposure whenever possible, Doctor consultation to discuss lung health risks",,0,64,27,1
+93,68,Male,"Shortness of breath at rest, Frequent sinus infections",,Ever smoker (quit 20 years ago),Medium,"Vaccinations (flu shot, pneumonia vaccine), Manage sinus infections (consult doctor), Doctor consultation to assess lung health and infection risk factors",1,46,31,6
+94,45,Female,,,Never smoker,Light,"Maintain healthy weight, Practice good posture, Doctor consultation for a lung health check-up",0,64,31,3
+95,50,Male,,Lives in a high-altitude area,Light,"Allow time to acclimatize to altitude, Avoid strenuous activity at high altitude initially, Doctor consultation if experiencing persistent shortness of breath",,1,64,21,0
+101,37,Male,Shortness of breath and fatigue after starting a new medication,,Never smoker,Light,"Monitor symptoms, Discuss with doctor who prescribed the medication, Doctor consultation if symptoms persist",1,43,31,3
+102,29,Female,,Diagnosed with cystic fibrosis,Never smoker,Light,"Medications and therapies specific to cystic fibrosis (consult doctor), Doctor consultation for regular cystic fibrosis management",0,64,11,3
+103,70,Male,"Shortness of breath at rest, History of heart disease",,Ever smoker (quit 20 years ago),Severe,"Oxygen therapy (if needed), Medications for heart disease (consult doctor), Doctor monitoring for heart and lung function",1,47,31,8
+104,50,Female,Wheezing occasionally after exposure to cold air,,Never smoker,Light,"Bronchodilator inhaler (if prescribed by doctor), Warm scarves/masks in cold weather, Doctor consultation to assess for exercise-induced asthma",0,58,31,3
+105,63,Male,Difficulty breathing during panic attacks,Anxiety disorder,Never smoker,Light,"Relaxation techniques, Therapy for anxiety (consult doctor), Doctor consultation to differentiate between anxiety and lung-related symptoms",1,13,2,3

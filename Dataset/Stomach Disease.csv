@@ -1,0 +1,101 @@
+Patient ID,Age,Sex,Symptoms,Medical History,Severity,Treatment Category,scaled_sex,scaled_symptoms,scaled_history,scaled_severity
+1,32,Female,Abdominal pain (after eating spicy food),,Light,"Dietary changes, Antacids",0,1,46,0
+2,55,Male,"Heartburn, Indigestion",High cholesterol,Medium,"Proton pump inhibitors (PPIs), Lifestyle changes",1,40,23,1
+3,28,Female,"Abdominal pain, Nausea",,Light,"Dietary changes, Over-the-counter medications",0,19,46,0
+4,67,Male,"Vomiting, Changes in bowel habits (diarrhea)",Ulcer history,Medium,"Medications for ulcers, Possible endoscopy",1,63,44,1
+5,41,Female,"Abdominal pain, Bloating",Stress,Light,"Lifestyle changes, Anti-gas medication",0,18,40,0
+6,72,Male,"Heartburn, Difficulty swallowing",,Medium,Medications for GERD (gastroesophageal reflux disease),1,36,46,1
+7,24,Male,Abdominal pain (cramping),Lactose intolerance,Light,"Dietary changes, Lactase enzyme supplements",1,4,29,0
+8,45,Female,"Nausea, Vomiting",Food poisoning,Light,"Fluids, Rest, Over-the-counter medications",0,50,11,0
+9,60,Male,Change in bowel habits (constipation),"High blood pressure, Diabetes",Light,"Dietary changes, Laxatives",1,20,22,0
+10,38,Female,"Heartburn, Regurgitation",Hiatal hernia,Medium,"Medications for GERD, Possible surgery",0,41,19,1
+21,30,Male,"Nausea, Vomiting",Appendicitis,Severe,Surgery (appendectomy),1,50,2,2
+22,50,Female,"Heartburn, Regurgitation, Chest pain",,Medium,"Medications for GERD, Lifestyle changes, Further tests to rule out heart issues",0,45,46,1
+23,75,Male,Abdominal pain (general),"High blood pressure, Diabetes",Light,"Pain medication, Monitoring for other complications",1,13,22,0
+24,42,Female,"Change in bowel habits (diarrhea), Dehydration",Foodborne illness,Light,"Fluids, Electrolytes, Rest",0,25,13,0
+25,68,Male,,History of stomach ulcers,Medium,"Medications to reduce stomach acid, Monitoring for ulcers",1,64,25,1
+26,33,Female,Abdominal pain (cramping),"Lactose intolerance, Stress",Light,"Dietary changes, Lactase enzyme supplements, Stress management techniques",0,4,31,0
+27,54,Male,"Heartburn, Difficulty swallowing",Hiatal hernia,Medium,"Medications for GERD, Lifestyle changes",1,36,19,1
+28,29,Female,"Nausea, Vomiting, Loss of appetite",Pregnancy,Light,"Dietary changes, Prenatal vitamins, Consultation with midwife/doctor",0,60,39,0
+29,48,Male,Change in bowel habits (constipation),,Light,"Dietary changes, Increased fiber intake, Laxatives if needed",1,20,46,0
+30,60,Female,Abdominal pain (upper right quadrant),Gallstones,Medium,"Ultrasound, Possible laparoscopic surgery",0,16,15,1
+31,71,Male,"Heartburn, Regurgitation (nighttime)",Obesity,Light,"Lifestyle changes, Over-the-counter antacids",1,42,35,0
+32,39,Female,"Abdominal pain (cramping), Bloating",Irritable bowel syndrome (IBS),Medium,"Dietary changes, Antispasmodic medication",0,5,28,1
+33,51,Male,,"History of stomach ulcers, NSAID use",Light,"Medications to reduce stomach acid, Monitoring for ulcers",1,64,26,0
+34,25,Female,Abdominal pain (dull ache),Stress,Light,"Pain medication, Relaxation techniques",0,11,40,0
+35,63,Male,"Heartburn, Difficulty swallowing","Hiatal hernia, GERD",Severe,"Endoscopy, Possible surgery to repair hiatal hernia",1,36,21,2
+36,34,Female,"Nausea, Vomiting",Celiac disease,Medium,"Gluten-free diet, Monitoring for nutritional deficiencies",0,50,3,1
+37,47,Male,"Change in bowel habits (constipation), Blood in stool",Diverticulitis,Medium,"Dietary changes, Antibiotics (if infection present), Pain medication",1,21,8,1
+38,20,Female,"Nausea, Vomiting, Fever",Viral gastroenteritis (stomach flu),Light,"Fluids, Electrolytes, Rest",0,58,45,0
+39,56,Male,"Abdominal pain (cramping), Bloating",Lactose intolerance,Light,"Dietary changes, Lactase enzyme supplements",1,5,29,0
+40,73,Female,,,Light,"Observation, Dietary adjustments if needed",0,64,46,0
+41,41,Male,"Nausea, Vomiting",Appendicitis,Medium,Surgery (appendectomy),1,50,2,1
+42,64,Female,"Heartburn, Regurgitation, Chest pain (radiating)",,Severe,"Cardiac evaluation, Medications for GERD (if applicable)",0,46,46,2
+43,30,Male,Abdominal pain (general),Diabetes,Light,"Pain medication, Monitoring blood sugar levels",1,13,5,0
+44,45,Female,"Change in bowel habits (diarrhea), Dehydration",Food poisoning,Medium,"Fluids, Electrolytes, Antidiarrheal medication",0,25,11,1
+45,50,Male,,History of peptic ulcers,Medium,"Medications to reduce stomach acid, Monitoring for ulcers",1,64,24,1
+46,31,Female,"Abdominal pain (cramping), Bloating","Stress, Irregular eating habits",Light,"Dietary changes, Stress management techniques",0,5,41,0
+47,62,Male,"Heartburn, Difficulty swallowing",,Medium,"Medications for GERD, Endoscopy to rule out other causes",1,36,46,1
+48,26,Female,"Nausea, Vomiting, Loss of appetite",Morning sickness (pregnancy),Light,"Dietary changes, Prenatal vitamins, Consultation with midwife/doctor",0,60,33,0
+49,44,Male,Change in bowel habits (constipation),Low fiber intake,Light,"Increased fiber intake, Laxatives if needed",1,20,32,0
+50,55,Female,Abdominal pain (upper right quadrant),High cholesterol,Medium,"Ultrasound, Consultation with gastroenterologist",0,16,23,1
+51,42,Male,Early satiety (feeling full quickly),No prior medical history,Light,"Dietary adjustments, Consultation with doctor to rule out other causes",1,32,34,0
+52,60,Female,"Heartburn, Sour taste in mouth",,Light,"Over-the-counter antacids, Lifestyle changes",0,48,46,0
+53,37,Male,Abdominal pain (after greasy meal),High cholesterol,Light,"Dietary changes, Medications for cholesterol (if prescribed)",1,3,23,0
+54,48,Female,"Nausea, Vomiting (projectile)",,Medium,"Fluids, Electrolytes, Urgent medical evaluation",0,54,46,1
+55,70,Male,"Change in bowel habits (diarrhea, black stool)",Peptic ulcer history,Severe,"Endoscopy, Medications to reduce stomach acid, Possible blood transfusion",1,26,37,2
+56,34,Female,"Abdominal pain (severe, cramping)",,Medium,"Pain medication, Imaging tests (ultrasound, CT scan) to identify cause",0,15,46,1
+57,52,Male,"Heartburn, Difficulty swallowing (persistent)","Obesity, Smoking",Medium,"Medications for GERD, Lifestyle changes, Endoscopy to rule out complications",1,38,36,1
+58,28,Female,"Nausea, Vomiting, Dizziness",,Medium,"Fluids, Electrolytes, Rest, Consultation with doctor to determine cause",0,56,46,1
+59,45,Male,"Change in bowel habits (constipation, bleeding)","Hemorrhoids, NSAID use",Light,"Dietary changes, Stool softeners, Hemorrhoid creams, Consult doctor for persistent bleeding",1,22,18,0
+60,65,Female,Abdominal pain (dull ache),"Stress, Irregular eating habits",Light,"Pain medication, Relaxation techniques, Dietary adjustments",0,11,41,0
+61,39,Male,"Heartburn, Regurgitation (worsened by lying down)",Hiatal hernia,Medium,"Medications for GERD, Lifestyle changes, Possible surgery for hiatal hernia",1,43,19,1
+62,57,Female,"Abdominal pain (cramping, localized)",Irritable bowel syndrome (IBS),Light,"Dietary changes, Antispasmodic medication, Stress management techniques",0,9,28,0
+63,23,Male,"Nausea, Vomiting, Loss of appetite (recent travel)",,Light,"Fluids, Electrolytes, Rest, Consultation with doctor to rule out travel-related illness",1,62,46,0
+64,40,Female,"Change in bowel habits (diarrhea, urgency)",Lactose intolerance,Light,"Dietary changes, Lactase enzyme supplements",0,29,29,0
+65,72,Male,"Abdominal pain (upper right quadrant, radiating to back)",Gallstones,Medium,"Ultrasound, Possible laparoscopic cholecystectomy (gallbladder removal)",1,17,15,1
+66,31,Female,Difficulty swallowing,,Light,"Consultation with doctor to identify cause (e.g., esophageal stricture, neuromuscular issues)",0,30,46,0
+67,59,Male,"Heartburn, Regurgitation, Night sweats",,Medium,"Medications for GERD, Endoscopy to investigate further",1,47,46,1
+68,26,Female,"Nausea, Vomiting (blood present)",Peptic ulcer history (NSAID use),Severe,"Urgent medical evaluation, Endoscopy, Medications to reduce stomach acid, Possible blood transfusion",0,51,38,2
+69,43,Male,"Change in bowel habits (constipation, mucus in stool)",Inflammatory bowel disease (suspected),Medium,"Stool tests, Colonoscopy, Consultation with gastroenterologist",1,23,27,1
+70,68,Female,"Abdominal pain (diffuse, persistent)",,Medium,"Imaging tests (ultrasound, CT scan), Consultation with doctor to determine cause",0,10,46,1
+71,48,Male,"Early satiety, Weight loss (unintentional)",,Medium,"Dietary evaluation, Consultation with doctor to rule out other conditions (e.g., cancer)",1,34,46,1
+72,22,Female,"Heartburn, Sour taste in mouth (chronic)",Anxiety,Light,"Medications for GERD, Stress management techniques",0,49,0,0
+73,61,Male,Abdominal pain (after consuming alcohol),Gastritis,Light,"Dietary changes, Over-the-counter antacids",1,0,16,0
+74,35,Female,"Nausea, Vomiting (projectile, recurrent)",,Medium,"Fluids, Electrolytes, Urgent medical evaluation to identify cause",0,55,46,1
+75,54,Male,"Change in bowel habits (diarrhea, greasy stool)",Celiac disease (suspected),Medium,"Blood tests, Possible endoscopy with biopsy, Gluten-free diet if confirmed",1,28,4,1
+76,29,Female,"Abdominal pain (cramping, bloating)","Stress, Irregular meals",Light,"Dietary adjustments, Relaxation techniques",0,8,42,0
+77,47,Male,"Difficulty swallowing, Weight loss",Esophageal cancer (suspected),Severe,"Urgent medical evaluation, Endoscopy, Biopsy, Possible surgery",1,31,9,2
+78,32,Female,"Nausea, Vomiting, Fever, Chills",Food poisoning (suspected),Light,"Fluids, Electrolytes, Rest, Monitoring for dehydration",0,59,12,0
+79,50,Male,"Change in bowel habits (constipation, ribbon-like stool)",,Medium,"Consultation with doctor to identify cause (e.g., intestinal obstruction)",1,24,46,1
+80,63,Female,"Abdominal pain (dull ache, worsened by eating)",Gastritis,Light,"Dietary changes, Over-the-counter medications to reduce inflammation",0,12,16,0
+81,45,Male,"Heartburn, Regurgitation (worsens at night)",Obesity,Light,"Lifestyle changes, Over-the-counter antacids",1,44,35,0
+82,21,Female,,Lactose intolerance,Light,"Dietary changes, Lactase enzyme supplements",0,64,29,0
+83,60,Male,"Abdominal pain (cramping, after eating spicy food)",,Light,"Dietary adjustments, Pain medication if needed",1,7,46,0
+84,38,Female,"Nausea, Vomiting (occasional)",Anxiety,Light,"Consultation with doctor to identify cause (anxiety, medication side effect, etc.)",0,52,0,0
+85,53,Male,Change in bowel habits (constipation),"Diabetes, High blood pressure",Light,"Increased fiber intake, Stool softeners if needed, Monitor blood sugar and blood pressure",1,20,6,0
+86,24,Female,Abdominal pain (dull ache),Stressful life events,Light,"Relaxation techniques, Dietary adjustments",0,11,43,0
+87,42,Male,"Heartburn, Difficulty swallowing (occasional)",Hiatal hernia (suspected),Medium,"Consultation with doctor, Endoscopy to confirm diagnosis",1,37,20,1
+88,30,Female,"Nausea, Vomiting, Loss of appetite (recent antibiotic use)",,Light,"Fluids, Electrolytes, Probiotics (consult doctor), Monitor for signs of antibiotic-resistant infection",0,61,46,0
+89,47,Male,"Change in bowel habits (diarrhea, urgency)",Food intolerance (suspected),Light,"Elimination diet to identify trigger,  Dietary adjustments",1,29,10,0
+90,65,Female,"Abdominal pain (localized, sharp)",,Medium,"Imaging tests (ultrasound, CT scan) to identify cause, Consultation with doctor",0,14,46,1
+91,51,Male,"Early satiety, Feeling of fullness after eating small amounts",,Light,"Dietary evaluation, Consultation with doctor to rule out other causes",1,33,46,0
+92,29,Female,"Heartburn, Burning sensation in chest",,Light,"Over-the-counter antacids, Lifestyle changes (avoid trigger foods)",0,35,46,0
+93,68,Male,Abdominal pain (after fatty meal),High cholesterol,Light,"Dietary changes, Medications for cholesterol (if prescribed)",1,2,23,0
+94,40,Female,"Nausea, Vomiting (persistent)",,Medium,"Fluids, Electrolytes, Urgent medical evaluation to identify cause",0,53,46,1
+95,55,Male,"Change in bowel habits (diarrhea, black stools)",Peptic ulcer history (NSAID use),Severe,"Endoscopy, Medications to reduce stomach acid, Possible blood transfusion",1,27,38,2
+96,31,Female,"Abdominal pain (severe, cramping)",,Medium,"Pain medication, Imaging tests to identify cause, Consultation with doctor",0,15,46,1
+97,52,Male,"Heartburn, Difficulty swallowing (progressive)","GERD, Obesity",Medium,"Medications for GERD, Lifestyle changes, Endoscopy to assess complications",1,39,14,1
+98,28,Female,"Nausea, Vomiting, Dizziness (after head injury)",,Medium,"Emergency medical evaluation, Consultation with doctor to determine cause",0,57,46,1
+99,45,Male,"Change in bowel habits (constipation, bleeding)",Hemorrhoids,Light,"Dietary changes, Stool softeners, Hemorrhoid creams, Consult doctor for persistent bleeding",1,22,17,0
+100,62,Female,Abdominal pain (dull ache),"Stress, Irregular eating habits",Light,"Pain medication, Relaxation techniques, Dietary adjustments",0,11,41,0
+101,33,Male,"Heartburn, Regurgitation (worsened by lying down)",,Light,"Lifestyle changes, Consultation with doctor for persistent symptoms",1,43,46,0
+102,20,Female,,Lactose intolerance (suspected),Light,"Dietary changes, Doctor consultation to confirm diagnosis",0,64,30,0
+103,58,Male,"Abdominal pain (cramping, after eating greasy food)",,Light,"Dietary adjustments, Pain medication if needed, Doctor consultation to rule out other causes",1,6,46,0
+104,35,Female,"Nausea, Vomiting (occasional)","Anxiety, Medication for anxiety",Light,Doctor consultation to identify if nausea a medication side effect,0,52,1,0
+105,50,Male,Change in bowel habits (constipation),"Diabetes, High blood pressure (controlled)",Light,"Increased fiber intake, Stool softeners if needed, Monitor blood sugar and blood pressure as directed by doctor",1,20,7,0
+106,22,Female,Abdominal pain (dull ache),Stressful life events,Light,"Relaxation techniques, Dietary adjustments, Doctor consultation if pain persists",0,11,43,0
+107,40,Male,"Heartburn, Difficulty swallowing (occasional)",,Medium,Consultation with doctor,1,37,46,1
+108,27,Female,"Nausea, Vomiting, Loss of appetite (recent antibiotic use)",,Light,"Fluids, Electrolytes, Probiotics (consult doctor), Monitor for signs of antibiotic-resistant infection and consult doctor if needed",0,61,46,0
+109,44,Male,"Change in bowel habits (diarrhea, urgency)",Food intolerance (suspected),Light,"Elimination diet to identify trigger, Dietary adjustments, Doctor consultation to confirm diagnosis",1,29,10,0
+110,62,Female,"Abdominal pain (localized, sharp)",,Medium,"Imaging tests (ultrasound, CT scan) to identify cause, Consultation with doctor for diagnosis and treatment",0,14,46,1
