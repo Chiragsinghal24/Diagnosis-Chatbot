@@ -39,7 +39,7 @@ def skin_data(problem,location,gender):
    #   print(scaled_history[0])
      res=df[(df["Skin Problem"].str.contains(symp[0])) & (df["Location on Body"].str.contains(his[0])) & (df["Sex"] == se[0]) ]
      print(res)
-     with open("C:/MedTech_DJ_Backend/med_backend/medical/heart_model.pkl","rb") as f:
+     with open("C:/MedTech_DJ_Backend/med_backend/medical/skin_model.pkl","rb") as f:
         model=pickle.load(f,encoding='utf-8')
      print(model)
      predictions=model.predict([[scaled_sex[0],scaled_symptoms[0],scaled_history[0]]])

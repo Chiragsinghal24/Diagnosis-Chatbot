@@ -192,7 +192,7 @@ def serve(request):
          else:
             prediction="Severe"
          set=df[df["scaled_severity"]==prediction]
-         message=f"By recieving and interprating on the parameters our prediction is that level of Lung related disease {prediction}"
+         message=f"By recieving and interprating on the parameters our prediction is that level of Skin related disease {prediction}"
          response = {
                 "fulfillmentMessages": [
                     {
@@ -211,7 +211,7 @@ def serve(request):
          print(li[3])
          prediction=-1
          if li[0]=="Chest" or li[0]=="Heart":
-            predcition=-1
+            prediction=-1
             print("Organ is: ",li[0])
             prediction=heart_data(li[1],li[2],li[3])
             print("Severeity level:  ",prediction)
@@ -258,5 +258,6 @@ def serve(request):
                 ]
           }
          li.clear()
+         i=0
          return JsonResponse(response)
 
